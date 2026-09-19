@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Terminal Dungeon",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/dungeon.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+            "preLaunchTask": "build dungeon"
+        }
+    ]
+}
